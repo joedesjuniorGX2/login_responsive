@@ -1,0 +1,161 @@
+/*/// Full Page ///*/
+* {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+	padding: 0px 0px;
+	color: white;
+}
+
+/*/// Background ///*/
+header.background {
+	height: 110vh;
+	width: 100%;
+	background-color: #9566ff;
+	background-image: url("images/img2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*/// Container ///*/
+header.container {
+	height: 80vh;
+	margin-top: 5%;
+	background-color: transparent;
+	width: auto;
+}
+header.container div {
+	display: inline-block;
+}
+
+/*/// Login Image Div ///*/
+div.image {
+	margin-top: 5%;
+	float: left;
+}
+img.login-img {
+	height: 450px;
+	width: auto;
+}
+
+/*/// Login Form Div ///*/
+div.form {
+	box-shadow: 0px 0px 30px black;
+	background-color: #6232af;
+	border-radius: 3px;
+	padding: 50px 30px;
+	border: 2px solid white;
+	margin-right: 7%;
+	float: right;
+}
+div.form div {
+	display: block;
+}
+
+/*/// Inputs ///*/
+input {
+	color: white;
+	outline: none;
+	border-radius: 3px;
+	border: 2px solid white;
+	margin-top: 30px;
+	padding: 10px 30px;
+	background-color: transparent;
+	font-size: 20px;
+	display: block;
+}
+input:hover {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+	transition: 0.5s ease;
+}
+.check {
+	margin-left: 5px;
+	display: inline-block;
+}
+a.button {
+	font-weight: bold;
+	margin-top: 20px;
+	float: right;
+	border-radius: 3px;
+	border: transparent;
+	background-color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #6232af;
+}
+a.button:hover {
+	font-weight: normal;
+	background-color: black;
+	color: white;
+	transition: 0.5s ease;
+}
+
+/*/// Login with Facebook and Google buttons ///*/
+a.fb, a.gp {
+	margin-bottom: 20px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+	border: transparent;
+	padding: 10px 40px;
+	display: inline-block;
+}
+a.fb {
+	float: left;
+	background-color: #3d65fb;
+}
+a.fb:hover {
+	font-weight: bold;
+	background-color: black;
+	color: #3d65fb;
+	transition: 0.5s ease;
+}
+a.gp {
+	float: right;
+	background-color: #db4839;
+}
+a.gp:hover {
+	font-weight: bold;
+	background-color: black;
+	color: #db4839;
+	transition: 0.5s ease;
+}
+
+/*/// Forgot password or new account links ///*/
+a.text-link {
+	text-decoration: none;
+	color: white;
+}
+a.text-link:hover {
+	color: black;
+	transition: 0.5s ease;
+}
+
+
+/*/// Responsive Media Query ///*/
+
+@media screen and (max-width: 800px)
+{
+	img.login-img {
+		display: none;
+	}
+}
+@media screen and (max-width: 1020px)
+{
+	img.login-img {
+		margin-left: 10%;
+		margin-top: 10%;
+		height: 350px;
+		width: auto;
+	}
+}
+@media screen and (max-width: 900px)
+{
+	img.login-img {
+		margin-left: 15%;
+		margin-top: 25%;
+		height: 250px;
+		width: auto;
+	}
+}
